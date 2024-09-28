@@ -17,7 +17,7 @@ nltk.download('omw-1.4')
 
 # Load the pre-trained model (assuming it's a pickled file)
 def load_model():
-    with open('model/prediction_model.pkl', 'rb') as file:
+    with open('model/model.pkl', 'rb') as file:
         model = pickle.load(file)
     return model
 
